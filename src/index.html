@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Yevhenii Sirman | FrontEnd developer, lviv">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>SMART REVIEWER</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#317EFB">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts/nexa/stylesheet.css">
+    <link rel="stylesheet" href="fonts/avenir/stylesheet.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="#about" class="header-nav__link smooth">About Us</a></li>
+                <li class="header-nav__item"><a href="#contacts" class="header-nav__link smooth">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="header-logo">
+                <p class="header-logo__first-row">smart</p>
+                <p class="header-logo__second-row">reviewer</p>   
+            </div>
+            <div class="header-title">
+                <p class="header-title__first-row">Only true and best reviews from the industry professionals</p>
+                <p class="header-title__second-row">Over 1000+ truthful reviews of different products and services</p>
+            </div>
+            <div class="header-search">
+                <input type="search" class="header-search__input" placeholder="Find a review">
+            </div>
+        </div>
+        <nav class="header-menu">
+            <div class="toggle-btn">
+                <span class="toggle-btn__line toggle-btn__top"></span>
+                <span class="toggle-btn__line toggle-btn__midle"></span>
+                <span class="toggle-btn__line toggle-btn__bottom"></span>
+            </div>
+            <ul class="header-menu__list top-menu">
+                <li class="header-menu__item"><a href="#" class="header-menu__link">electronix</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">computers</a>
+                    <ul class="header-menu-dropdown">
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Laptops</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Tablets</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">TV’s</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Cell Phones & Services</a>
+                            <ul class="header-menu-dropdown-lv-2">
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">Laptops</a></li>
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">Tablets</a></li>
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">TV’s</a></li>
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">Printers</a></li>
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">Keyboards</a></li>
+                                <li class="header-menu-dropdown-lv-2__item"><a href="#" class="header-menu-dropdown-lv-2__link">Mouses</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Printers</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Keyboards</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Mouses</a></li>
+                        <li class="header-menu-dropdown__item"><a href="#" class="header-menu-dropdown__link">Web Cams</a></li>
+                    </ul>
+                </li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">games</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">music</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">appliances</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">home & garden</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">sport</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">cars</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">servises</a></li>
+                <li class="header-menu__item"><a href="#" class="header-menu__link">more</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="catalog">
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-iphone.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Apple iPhone 6S review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                    <p class="catalog-item__description">Improved speed everywhere (new processor, faster wireless, quicker Touch ID sensor); a sturdier body; better front and rear cameras; a bold new 3D Touch pressure-sensitive display that could ...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">mobile</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">apple</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">touch</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">news</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-halo-5.jpg" alt="iphone" class="catalog-item__img-main">
+                    <img src="img/label-s.png" alt="" class="catalog-item__img-promo">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Why Halo 5: Guardians Record Breaking Sales</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">Jaffrey Wallens </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">As a whole the Xbox community has always been more interactive because of the Halo series. The PS4 following is still great but falls short. The fantastic sales records broken by Halo 5: Guardians shows...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">games</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">action</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">xbox</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">pc</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">ps4</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-beats.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Beats Solo 2 review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">David Carnoy </span>- Oct 14, 2015</span>
+                    <p class="catalog-item__description">Like the new Studio, the Solo 2, which weighs in at 7.2 ounces (205 grams), is built more sturdily and has no visible screws.</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">music</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">headphones</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats solo</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">treets</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">lifestyle</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-host.jpg" alt="iphone" class="catalog-item__img-main">
+                    <img src="img/label-c.jpg" alt="" class="catalog-item__img-promo">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">DigitalOcean. Simple Cloud Hosting, Built for Developers.</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">Helen Fiesko </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">The services they provide are quite basic - you get VPS's in the cloud and DNS management, that's all. No fancy load balancing, hosted databases, hadoop clusters, etc..</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">servers</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">service</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">hosting</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cheap</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">best</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cloud</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">popular</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-beats.jpg" alt="iphone" class="catalog-item__img-main">
+                    <img src="img/label-s.png" alt="" class="catalog-item__img-promo">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Beats Solo 2 review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">David Carnoy </span>- Oct 14, 2015</span>
+                    <p class="catalog-item__description">Like the new Studio, the Solo 2, which weighs in at 7.2 ounces (205 grams), is built more sturdily and has no visible screws.</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">music</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">headphones</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats solo</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">treets</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">lifestyle</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-host.jpg" alt="iphone" class="catalog-item__img-main">
+                    <img src="img/label-c.jpg" alt="" class="catalog-item__img-promo">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">DigitalOcean. Simple Cloud Hosting, Built for Developers.</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__author-date">by <span class="catalog-item__author">Helen Fiesko </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">The services they provide are quite basic - you get VPS's in the cloud and DNS management, that's all. No fancy load balancing, hosted databases, hadoop clusters, etc..</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">servers</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">service</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">hosting</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cheap</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">best</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cloud</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">popular</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-iphone.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Apple iPhone 6S review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                    <p class="catalog-item__description">Improved speed everywhere (new processor, faster wireless, quicker Touch ID sensor); a sturdier body; better front and rear cameras; a bold new 3D Touch pressure-sensitive display that could ...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">mobile</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">apple</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">touch</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">news</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-halo-5.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Why Halo 5: Guardians Record Breaking Sales</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">Jaffrey Wallens </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">As a whole the Xbox community has always been more interactive because of the Halo series. The PS4 following is still great but falls short. The fantastic sales records broken by Halo 5: Guardians shows...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">games</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">action</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">xbox</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">pc</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">ps4</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-host.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">DigitalOcean. Simple Cloud Hosting, Built for Developers.</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author"> Helen Fiesko </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">The services they provide are quite basic - you get VPS's in the cloud and DNS management, that's all. No fancy load balancing, hosted databases, hadoop clusters, etc..</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">servers</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">service</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">hosting</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cheap</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">best</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">cloud</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">popular</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-iphone.jpg" alt="iphone" class="catalog-item__img-main">
+                    <img src="img/label-s.png" alt="" class="catalog-item__img-promo">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Apple iPhone 6S review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                    <p class="catalog-item__description">Improved speed everywhere (new processor, faster wireless, quicker Touch ID sensor); a sturdier body; better front and rear cameras; a bold new 3D Touch pressure-sensitive display that could ...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">mobile</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">apple</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">touch</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">news</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-halo-5.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Why Halo 5: Guardians Record Breaking Sales</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">Jaffrey Wallens </span>- Oct 22, 2015</span>
+                    <p class="catalog-item__description">As a whole the Xbox community has always been more interactive because of the Halo series. The PS4 following is still great but falls short. The fantastic sales records broken by Halo 5: Guardians shows...</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">games</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">action</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">xbox</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">pc</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">ps4</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__img-wrap">
+                    <img src="img/cat-beats.jpg" alt="iphone" class="catalog-item__img-main">
+                </div>
+                <div class="catalog-item__info-wrap">
+                    <h3 class="catalog-item__info-title">Beats Solo 2 review</h3>
+                    <div class="catalog-title__rating">
+                        <ul class="catalog-item__stars-list">
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                            <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                        </ul>
+                    </div>
+                    <span class="catalog-item__date-author">by <span class="catalog-item__author">David Carnoy </span>- Oct 14, 2015</span>
+                    <p class="catalog-item__description">Like the new Studio, the Solo 2, which weighs in at 7.2 ounces (205 grams), is built more sturdily and has no visible screws.</p>
+                    <ul class="catalog-item__tags-list">
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">music</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">headphones</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">beats solo</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">treets</a></li>
+                        <li class="catalog-item__tags-item"><a href="#" class="catalog-item__tags-link">lifestyle</a></li>
+                    </ul>
+                    <div class="catalog-item__review-wrap">
+                        <a href="#" class="catalog-item__review-link">READ REVIEW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="read-more"><a href="#" class="read-more__link">READ MORE</a></div>
+    </main>   
+
+    <footer class="footer" id="about">
+        <div class="footer-main">
+            <div class="footer-main__info">
+                <div class="header-logo">
+                    <p class="header-logo__first-row">smart</p>
+                    <p class="header-logo__second-row">reviewer</p>   
+                </div>
+                <div class="footer-about">
+                    <h2 class="footer-about__title">About</h2>
+                    <p class="footer-about__text">SmartReviewer tracks all the latest consumer technology breakthroughs and shows you what's new, what matters, and how technology can enrich your life. We give you the information, tools, and advice that will help you decide what to buy and how to get the most out of the tech in your life. We give you the information, tools, and advice that will help you decide what to buy.</p>
+                </div>
+                <div class="footer-tags">
+                    <h2 class="footer-about__title">Popular tags</h2>
+                    <ul class="footer-tags__list">
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">music</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">beats</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">headphones</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">beats solo</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">apple</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">samsung</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">mobile</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">xbox</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">streets</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">lifestyle</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">news</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">service</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">cloud</a></li>
+                        <li class="footer-tags__item"><a href="#" class="footer-tags__link">touch </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-products">
+                <div class="footer-products-wrap">
+                    <h2 class="footer-about__title">Best Rates Products</h2>
+                    <div class="footer-products-rates">
+                        <div class="footer-products-item footer-products-item--iphone">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">iPhone 6S review</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                        </div>
+                        <div class="footer-products-item footer-products-item--asas">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">Assassin's Creed Syndicate review</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">David Carnoy </span>- Oct 12, 2015</span>
+                        </div>
+                        <div class="footer-products-item  footer-products-item--nik">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">Nikon D750 review</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-products-wrap">
+                    <h2 class="footer-about__title">Best Latest Reviews</h2>
+                    <div class="footer-products-latest">
+                        <div class="footer-products-item footer-products-item--sams">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">Samsung UNH6350 series review</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                        </div>
+                        <div class="footer-products-item footer-products-item--beats">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">Beats Solo 2. Why is it so popular?</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">David Carnoy </span>- Oct 12, 2015</span>
+                        </div>
+                        <div class="footer-products-item  footer-products-item--galx">
+                            <div class="footer-products-item__bg"></div>
+                            <h3 class="footer-products-item__title">Samsung Galaxy S6</h3>
+                            <div class="catalog-title__rating">
+                                <ul class="catalog-item__stars-list">
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star.png" alt="star"></li>
+                                    <li class="catalog-item__stars-item"><img src="img/star-gr.png" alt="star"></li>
+                                </ul>
+                            </div>
+                            <span class="catalog-item__date-author">by <span class="catalog-item__author">John Mayyer </span>- Nov 2, 2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacts" class="footer-develops">
+            <ul class="footer-develops__list">
+                <li class="footer-develops__item"><img src="img/icon-mail.png" alt="icon mail"></li>
+                <li class="footer-develops__item">Have a question?</li>
+                <li class="footer-develops__item"><a href="#">contacts@smartreviewer.com</a></li>
+                <li class="footer-develops__item"><a href="#"><img src="img/facebook.png" alt="fb"></a></li>
+                <li class="footer-develops__item"><a href="#"><img src="img/twitter.png" alt="twit"></a></li>
+                <li class="footer-develops__item"><a href="#"><img src="img/g+.png" alt="google+"></a></li>
+                <li class="footer-develops__item"><a href="#"><img src="img/pinterest.png" alt="pinterets"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
